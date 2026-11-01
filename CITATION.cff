@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "When Does Conversational Context Help Emotion Recognition? A Hardness-Stratified Study of Adaptive Context in Multimodal ERC with a Pre-Specified Decision Rule"
+authors:
+  - family-names: Bhattacharya
+    given-names: Sudipta
+    affiliation: Institute of Engineering and Management, Kolkata
+    email: bhattacharya.sudipta@gmail.com
+date-released: 2026-11-02
+version: "1.0 (rev. 4c)"
+license: MIT

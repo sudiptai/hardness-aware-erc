@@ -1,0 +1,18 @@
+# data and large artefacts are never committed
+cache/
+*.npy
+*.npz
+*.wav
+*.mp4
+*.zip
+*.tar.gz
+IEMOCAP*/
+MELD*/
+__pycache__/
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk

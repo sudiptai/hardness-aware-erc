@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{hyperref}
+\pagestyle{empty}
+\begin{document}
+\noindent Dr.\ Sudipta Bhattacharya\\
+IEM Centre of Excellence for Cloud Computing and IoT\\
+Department of CSE (AIML) and CSBS\\
+Institute of Engineering and Management, Kolkata 700091, India\\
+bhattacharya.sudipta@gmail.com\\[1.2em]
+\noindent \today\\[1.2em]
+\noindent Editor-in-Chief\\
+IEEE Transactions on Affective Computing\\[1.5em]
+
+\noindent Dear Editor,\\[0.6em]
+Please consider the enclosed manuscript, \emph{``When Does Conversational Context Help Emotion Recognition? A Hardness-Stratified Study of Adaptive Context in Multimodal ERC with a Pre-Specified Decision Rule''}, for publication as a regular paper in \emph{IEEE Transactions on Affective Computing}.
+
+The paper addresses a question that every emotion-recognition-in-conversation (ERC) system answers implicitly and none has tested directly: does every utterance need the same amount of dialogue context, and can a model tell in advance which ones need more? Using frozen WavLM-Large and RoBERTa-base encoders on IEMOCAP, MELD and EmoryNLP, we introduce a label-free instance-hardness score and use it to stratify the measured benefit of context. On IEMOCAP the gain from an eight-turn window rises from $+4.8$ weighted-F1 in the easiest quartile to $+11.2$ in the hardest; on MELD it is zero at every level. We then test, under a decision rule written into the manuscript before the decisive experiments were run, whether a learned per-utterance context-length policy can exploit this. It cannot: it is statistically indistinguishable from random assignment at the same mean context and trails a fixed window, and an oracle of sufficient context shows why---roughly 40\% of utterances need no context and 40\% are not resolved by any. A second pre-specified hypothesis, that the hardness score tracks inter-annotator disagreement, is also rejected ($\rho = 0.04$).
+
+We submit this as an analysis paper. Its contributions are the stratified measurement, the two controls that the adaptive-context literature has lacked (random assignment at matched mean context and an oracle of sufficient context), the mechanism that explains the negative result, and a fully reproducible protocol: five seeds, paired-bootstrap confidence intervals, inner-development model selection, a speaker-independent primary split with a LOSO replication, and released code, cached embeddings and per-seed results. We believe the field benefits from a clearly reported negative result with its controls as much as from a positive one, and we have written the paper so that every claim can be checked against a released file.
+
+The manuscript has not been published and is not under consideration elsewhere. The datasets were used under their respective licences. There are no conflicts of interest. I confirm that I am the sole author and take responsibility for the work.\\[1.2em]
+
+\noindent Suggested associate editors and reviewers: researchers working on conversational emotion recognition, instance-level evaluation, or speech self-supervised representations.\\[1.5em]
+
+\noindent Sincerely,\\[2em]
+\noindent Sudipta Bhattacharya, \emph{Member, IEEE}
+\end{document}

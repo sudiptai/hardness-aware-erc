@@ -1,0 +1,4 @@
+corpus,error_rate,ECE,rho_h_err,rho_ent_err,rho_h_ent,partial_rho_h_err_given_ent,AURC_model_conf,AURC_hardness,AURC_conf_plus_h,error_by_h_decile,rho_h_disagree,rho_ent_disagree,partial_rho_h_disagree_given_ent,n_with_annotators
+meld,35.693,4.91,0.093,0.355,0.153,0.041,20.671,31.034,23.136,26 31 36 32 35 36 38 37 45 40,,,,
+emorynlp,59.045,8.584,0.112,0.22,0.241,0.062,47.815,52.69,47.752,44 46 56 63 65 68 61 59 64 65,,,,
+iemocap,40.703,7.755,0.106,0.329,0.155,0.059,26.286,35.019,27.321,26 35 40 43 42 41 43 45 49 45,0.036,0.105,0.02,8110.0  
